@@ -1,0 +1,26 @@
+article  {
+  border: solid 1px;
+  border-color: gray;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+div {
+    margin: 10px;
+}
+
+h2 {
+    font-size: 15px;
+}
+
+#links {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+a {
+    color: rgb(61, 89, 216);
+    margin: 10px;
+    margin-left: 0px;
+}
