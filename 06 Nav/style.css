@@ -1,0 +1,80 @@
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    font-weight: bold;
+    text-justify: 5px;
+    position: relative;
+}
+
+/* all navbar */
+
+.navbar {
+    display: flex;
+    background-color: #485363;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    justify-content: space-between;
+}
+
+.title,
+.left-side {
+    display: flex;
+    justify-content: center; 
+    gap: 1em;
+    padding: 1rem;
+
+}
+
+.right-side {
+    display: flex;
+    justify-content: center; 
+    gap: 0.5em;
+    padding: 0.5rem;
+
+}
+
+input{
+    border-radius: 3px;
+}
+
+
+/* Inputs and buttons */
+
+a {
+     text-decoration: none;
+     color: white;
+}
+
+.disabled-button {
+    border: none;
+    color: grey;
+}
+
+/* Dropdown menu */
+
+select {
+    border: none;
+    background-color: #485363;
+    color: white;
+}
+
+/* Search Button */
+
+button{
+    border-radius: 3px;
+    color: rgb(27, 134, 68);
+    border-color: rgb(27, 134, 68);
+    background-color: #485363;
+    height: 100%;
+    transition-duration: 4ms;
+}
+
+.right-side button:hover {
+    color: white;
+    background-color: rgb(27, 134, 68);
+}
+
+
