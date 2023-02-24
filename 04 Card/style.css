@@ -1,4 +1,4 @@
-article  {
+.box  {
   border: solid 1px;
   border-color: gray;
   width: 350px;
@@ -14,7 +14,7 @@ h2 {
     font-size: 15px;
 }
 
-#links {
+.links {
     margin-top: 20px;
     margin-bottom: 30px;
 }
