@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.result {
+    background-color: rgba(37, 37, 39, 0.836);
+}
+
+.numbers {
+    background-color: white;
+}
+
+.operators {
+    background-color: rgba(137, 151, 229, 0.692);
+}
+.calculator {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    
+}
