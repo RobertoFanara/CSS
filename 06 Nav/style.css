@@ -3,7 +3,6 @@ body {
     height: 100%;
     display: flex;
     text-justify: 5px;
-    position: relative;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bold;
 
@@ -15,7 +14,6 @@ body {
     display: flex;
     background-color: #485363;
     width: 100%;
-    position: sticky;
     top: 0px;
     left: 0px;
     justify-content: flex-start;
@@ -89,11 +87,6 @@ button{
 @media (max-width: 768px) {
     .left-side, .right-side {
         display: none;
-    }
-
-    .hamburger {
-        display: flex;
-
     }
 
 }
