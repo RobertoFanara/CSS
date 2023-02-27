@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    border: solid 1px black;;
+    margin: 10px;
+    background: linear-gradient(grey, white);
+    border-radius: 20px;
+    width: 350px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 0 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.avatar {
+    border: solid 1px black;
+    border-radius: 50%;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+}
+
+.username {
+
+}
+
+.data {
+    font-size: 13px;
+    color: rgb(218, 214, 214);
+}
+
+
+.pallini {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    background-image: url(immagini/three-dots.svg);
+    background-size: contain;
+    margin-left: auto;
+    margin-right: 7px;
+}
+
+.gatto {
+    width: 100%;
+    height: 50%;
+    background-image: url(immagini/0F126554-1B7A-488C-972A-06C2EB0BD4C5-900x580.jpeg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.gatto2 {
+    width: 100%;
+    height: 50%;
+    background-image: url(immagini/libri-sui-gatti.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.gatto3 {
+    width: 100%;
+    height: 50%;
+    background-image: url(immagini/205333770-07792e07-af26-4fff-bd67-1358eec4b9f6.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+
+.loghi {
+    display: flex;
+    gap: 20px;
+    margin: 10px;
+}
+.cuore {
+    width: 35px;
+    height: 35px;
+    background-image: url(immagini/heart2.png);
+    background-size: contain;
+}
+
+.chat {
+    width: 35px;
+    height: 35px;
+    background-image: url(immagini/Comment-PNG-180x180.png);
+    background-size: contain;
+
+}
+
+.commento {
+    margin: 10px;
+
+}
+
+.commento::before {
+    content: 'Gatto ';
+    font-weight: bold;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+    body {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+@media (max-width: 375px) {
+    body {
+        grid-template-columns: 1fr;
+    }
+    
+}
